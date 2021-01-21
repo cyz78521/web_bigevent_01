@@ -55,7 +55,7 @@ $(function () {
                 layer.msg('更新用户信息成功!')
                 // 调用父页面里面的方法,重新渲染用户信息
                 // window.parent 对应的是他的父页面的widow 调用的方法是全局函数
-                window.parent. getUserInfo() 
+                window.parent.getUserInfo() 
             }
         });
     })
